@@ -1,0 +1,26 @@
+.container{
+    width: 100vh;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media  (min-width: 600px){
+    .container{ 
+         background-image: url("kitten-dawn.png");
+     }
+}
+
+@media  (max-width: 599px){
+  .container{ 
+         background-image: url("kitten-night.png");
+ 
+     }
+
+}
+@media  (max-width: 599px){
+    .container{ 
+           background-image: url("kitten-night.png");
+   
+       }
+  
+  }
